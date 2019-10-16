@@ -4,17 +4,17 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'ronittaleti05@gmail.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'ronittaleti05@gmail.com';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from your website';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); 
+$fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -37,7 +37,7 @@ try
     $emailText = "You have a new message from your contact form\n=============================\n";
 
     foreach ($_POST as $key => $value) {
-        // If the field exists in the $fields array, include it in the email 
+        // If the field exists in the $fields array, include it in the email
         if (isset($fields[$key])) {
             $emailText .= "$fields[$key]: $value\n";
         }

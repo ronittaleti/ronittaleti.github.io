@@ -25,9 +25,11 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
 	padding: 25px 10px;
 }
     .welcome-area .home-arrow {
+        text-align: left;
         bottom: -220px;
     }
     .welcome-text h1{
+        text-align: left;
         font-size: 65px;
     }
     .typed-cursor, .element {
@@ -139,12 +141,14 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         display: block;
     }
     .welcome-text h1 {
+        text-align: left;
         font-size: 36px;
     }
     .typed-cursor, .element {
 	   font-size: 18px;
     }
     .welcome-area .home-arrow {
+        text-align: left;
         bottom: -90px;
     }
     .section-padding {
@@ -212,6 +216,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .welcome-text h1 {
+        text-align: left;
         font-size: 50px;
     }
     .mobile-menu-activated ul.nav.navbar-nav li a {

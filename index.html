@@ -568,7 +568,17 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="contact-form">
-                        <form id="contact-form" method="post" action="http://formspree.io/ronittaleti05@gmail.com">
+                        <form action="https://getsimpleform.com/messages?form_api_token=b21de0c454630228633fa68502a60589" method="post">
+                            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                            <input type='hidden' />
+                            <!-- all your input fields here.... -->
+                            <input type='text' name='email' />
+                            <input type='text' name='name' />
+                            <input type="text" name="title" />
+                            <textarea name="message" />
+                            <input type='submit' value='Test form' />
+                        </form>
+                        <!--<form id="contact-form" method="post" action="http://formspree.io/ronittaleti05@gmail.com">
 
                             <div class="messages"></div>
                             <div class="controls">
@@ -610,7 +620,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </form>-->
                     </div>
                 </div>
 

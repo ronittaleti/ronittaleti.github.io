@@ -568,15 +568,15 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="contact-form">
-                        <form action="https://getsimpleform.com/messages?form_api_token=b21de0c454630228633fa68502a60589" method="post">
-                            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-
-                            <!-- all your input fields here.... -->
-
-
+                        <!--<form action="https://getsimpleform.com/messages?form_api_token=b21de0c454630228633fa68502a60589" method="post">
+                            <!-- the redirect_to is optional, the form will redirect to the referrer on submission --/>
+                            <input type='hidden' />
+                            <!-- all your input fields here.... --/>
+                            <input type='text' name='email' />
+                            <input type='text' name='name' />
                             <input type="text" name="title" />
                             <textarea name="message">Enter Message Here!</textarea>
-                        </form>
+                        </form>-->
                         <form action="https://getsimpleform.com/messages?form_api_token=b21de0c454630228633fa68502a60589" method="post">
 
                             <input type='hidden' />
@@ -587,14 +587,14 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <i class="fa fa-user-o"></i>
-                                            First and last name: <input type='text' name='name' class="form-control"/>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name*" required="required" data-error="Name is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <i class="fa fa-envelope-o"></i>
-                                            Email: <input type='text' name='email' class="form-control" />
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*" required="required" data-error="Valid email is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -603,7 +603,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <i class="fa fa-question-circle-o"></i>
-                                            <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject*" required="required" data-error="Subject is required.">
+                                            <input id="form_subject" type="text" name="title" class="form-control" placeholder="Subject*" required="required" data-error="Subject is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>

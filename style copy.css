@@ -38,7 +38,7 @@ NOTE: This is main stylesheet of the template.
 ==================================================*/
 body {
      font-family: 'Poppins', sans-serif;
-     color: #ddd;
+     color: #444;
      font-weight: 400;
      line-height: 28px;
      font-size: 15px;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     margin: 0 0 15px;
     font-weight: 700;
-    color: #ccc;
+    color: #222;
     line-height: 1.2;
 }
  a:focus {
@@ -101,7 +101,7 @@ a{
      margin: -75px 0 0 -75px;
      border-radius: 50%;
      border: 3px solid transparent;
-     border-top-color: #ccc;
+     border-top-color: #222;
      -webkit-animation: spin 1.7s linear infinite;
      animation: spin 1.7s linear infinite;
      z-index: 11;
@@ -115,7 +115,7 @@ a{
      bottom: 5px;
      border-radius: 50%;
      border: 3px solid transparent;
-     border-top-color: #ccc;
+     border-top-color: #222;
      -webkit-animation: spin-reverse .6s linear infinite;
      animation: spin-reverse .6s linear infinite;
 }
@@ -128,7 +128,7 @@ a{
      bottom: 15px;
      border-radius: 50%;
      border: 3px solid transparent;
-     border-top-color: #ccc;
+     border-top-color: #222;
      -webkit-animation: spin 1s linear infinite;
      animation: spin 1s linear infinite;
 }
@@ -169,7 +169,7 @@ a{
     }
 }
  #loader-wrapper .loader-section {
-     background-color: #000;
+     background-color: #fff;
      position: fixed;
      top: 0;
      width: 51%;
@@ -280,7 +280,7 @@ a{
      margin-top: 15px;
  }
  .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
-     color: #fff;
+     color: #444;
      padding: 25px 13px;
  }
 .logo a span {
@@ -289,7 +289,7 @@ a{
      padding: 9px 5px 8px 7px;
  }
  .custom-navbar.top-nav-collapse {
-     background: #000;
+     background: #fff;
      box-shadow: 0 0 10px #222;
      border-width: 0;
  }
@@ -414,7 +414,7 @@ a{
     border-left: none;
     border-right: none;
     font-size:16px;
-    color: #444;
+    color: #222;
     padding-bottom: 5px;
      font-weight: 700;
      text-transform: uppercase;
@@ -453,8 +453,8 @@ h4.about-heading {
 	width: 40px;
     height: 40px;
     line-height: 40px;
-	border: 1px solid #ccc;
-	color: #ccc;
+	border: 1px solid #444;
+	color: #444;
 	border-radius: 50%;
 	font-size: 16px;
     text-align: center;
@@ -469,14 +469,14 @@ h4.about-heading {
 	text-transform: uppercase;
 	font-size: 15px;
 	margin-bottom: 10px;
-    color: #ccc;
+    color: #444;
 }
 .about-area .progress {
 	height: 8px;
 	border-radius: 0px;
 	box-shadow: none;
 	overflow: visible;
-    background-color: #ccc;
+    background-color: #ddd;
 }
 .about-area .progress .progress-bar {
 	position: relative;
@@ -484,7 +484,7 @@ h4.about-heading {
 .about-area .progress .progress-bar span {
 	font-size: 16px;
 	right: 0;
-	color: #000;
+	color: #fff;
 	position: absolute;
 	top: -17px;
 	width: 40px;
@@ -513,7 +513,7 @@ h4.about-heading {
 ==================================================*/
  
 .services-area{
-    background-color: #0f0f0f;
+    background-color: #f7f7f7;
 }
  .single-service {
      position: relative;
@@ -521,7 +521,7 @@ h4.about-heading {
      font-size: 15px;
      font-weight: 300;
      padding: 40px 30px;
-     background-color: #0f0f0f;
+     background-color: #fff;
      margin-bottom: 30px;
      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
      border-radius: 5px;
@@ -929,7 +929,7 @@ ul.work-list li.active{
 .single-info {
      position: relative;
      padding: 25px 30px;
-     border: 1px solid #222;
+     border: 1px solid #ddd;
      margin-bottom: 15px;
 }
  .info-icon {
